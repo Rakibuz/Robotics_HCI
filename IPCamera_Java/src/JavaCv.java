@@ -4,6 +4,7 @@ import com.googlecode.javacv.cpp.opencv_core.IplImage;
 
 /**
  *
+ @Rakibuz Sultan Pranto
  * 
  */
 public class JavaCv  {
