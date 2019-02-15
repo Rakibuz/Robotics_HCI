@@ -1,0 +1,10 @@
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\bin\Debug\IPCamera.exe.config
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\bin\Debug\IPCamera.exe
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\bin\Debug\IPCamera.pdb
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\bin\Debug\AForge.dll
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.Form1.resources
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.exe
+c:\users\hp\documents\visual studio 2015\Projects\IPCamera\IPCamera\obj\Debug\IPCamera.pdb
