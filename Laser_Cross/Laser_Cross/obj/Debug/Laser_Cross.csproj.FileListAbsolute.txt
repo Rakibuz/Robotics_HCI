@@ -1,0 +1,81 @@
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.exe.config
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.exe
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.pdb
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.Form1.resources
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.exe
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.pdb
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Controls.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.DebuggerVisualizers (2010).dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Fuzzy.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Genetic.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.Formats.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.IPPrototyper.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.MachineLearning.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Math.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Neuro.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Lego.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Surveyor.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.TeRK.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.DirectShow.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.FFMPEG.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Kinect.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.VFW.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Ximea.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Vision.dll
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Controls.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Fuzzy.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Genetic.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.Formats.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.MachineLearning.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Math.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Neuro.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Lego.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Surveyor.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.TeRK.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.DirectShow.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.FFMPEG.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Kinect.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.VFW.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Ximea.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\bin\Debug\AForge.Vision.xml
+c:\users\hp\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.CameraSource.resources
+C:\Users\HP\documents\visual studio 2015\Projects\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.ColorTune.resources
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.exe.config
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.exe
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.pdb
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.exe
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\Laser_Cross.pdb
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Controls.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Fuzzy.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Genetic.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Imaging.Formats.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.MachineLearning.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Math.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Neuro.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Lego.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.Surveyor.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Robotics.TeRK.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.DirectShow.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.FFMPEG.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Kinect.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.VFW.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Video.Ximea.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\bin\Debug\AForge.Vision.xml
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.csprojResolveAssemblyReference.cache
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.CameraSource.resources
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.ColorTune.resources
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.Form1.resources
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.Properties.Resources.resources
+H:\C#\Office\Final_First_Assignment\Laser_Cross\Laser_Cross\obj\Debug\Laser_Cross.csproj.GenerateResource.Cache

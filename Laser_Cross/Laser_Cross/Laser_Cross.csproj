@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2FD626B-6AFD-4A35-8C71-281FF14835AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Laser_Cross</RootNamespace>
+    <AssemblyName>Laser_Cross</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.DebuggerVisualizers %282010%29">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.DebuggerVisualizers (2010).dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Fuzzy">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Fuzzy.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Genetic">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Genetic.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.Formats">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Imaging.Formats.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.IPPrototyper">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Imaging.IPPrototyper.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.MachineLearning">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Neuro">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Neuro.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Lego">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Robotics.Lego.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Surveyor">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Robotics.Surveyor.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.TeRK">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Robotics.TeRK.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Kinect">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Ximea">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Video.Ximea.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Vision">
+      <HintPath>H:\C#\Office\ObjectDetection\1\RenkSekilVeMesafe\RenkSekilVeMesafe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AForge.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalibrationData.cs" />
+    <Compile Include="CameraSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraSource.Designer.cs">
+      <DependentUpon>CameraSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorData.cs" />
+    <Compile Include="ColorTune.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorTune.Designer.cs">
+      <DependentUpon>ColorTune.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CameraSource.resx">
+      <DependentUpon>CameraSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorTune.resx">
+      <DependentUpon>ColorTune.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
