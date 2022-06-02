@@ -35,7 +35,7 @@ def Off_Clicked(event):
 btn_on.bind("<Button-1>" ,On_Clicked)
 btn_on.pack()
 
-btn_off.bind("<Button-2>" ,Off_Clicked)
+btn_off.bind("<Button-2>",Off_Clicked)
 btn_off.pack()
 
 
