@@ -24,20 +24,19 @@ btn_off= Button(root, text = 'OFF',width=5,height=3)
 btn_off.place(x=100, y=100)
  
  
- 
 # Defining method on click
 def On_Clicked(event):
     Arduino_Serial.write('1'.encode()) 
 
 def Off_Clicked(event):
     Arduino_Serial.write('0'.encode()) 
+    #print('Hello')
 
-btn_on.bind("<Button-1>" ,On_Clicked)
+btn_on.bind("<Button>",On_Clicked)  #bind(all the name Button,function name)
 btn_on.pack()
 
-btn_off.bind("<Button-2>",Off_Clicked)
+btn_off.bind("<Button>",Off_Clicked)
 btn_off.pack()
-
 
 
 root.mainloop()
