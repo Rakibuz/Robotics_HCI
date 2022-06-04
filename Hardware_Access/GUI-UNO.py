@@ -1,7 +1,6 @@
 # Importing tkinter module
 from tkinter import *  
 import serial  
-import warnings
 import serial.tools.list_ports
 from tkinter import messagebox
 import pyttsx3
