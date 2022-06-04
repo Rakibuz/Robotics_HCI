@@ -39,8 +39,8 @@ class Object:
 
 if __name__ == "__main__":
     for port in COMPorts.get_com_ports().data:
-        print(port.device)
-        print(port.description)
+        print(port.device,port.description)
+       # print(port.description)
 
-    print(COMPorts.get_device_by_description(description="Arduino Leonardo"))
-    print(COMPorts.get_description_by_device(device="COM3"))
+    #print(COMPorts.get_device_by_description(description="Arduino Leonardo"))
+    #print(COMPorts.get_description_by_device(device="COM3"))
