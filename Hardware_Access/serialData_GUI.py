@@ -20,7 +20,7 @@ def readserial():
     #print(type(index))
     tk.Label(root,text=x[0]).place(x=50,y=10)
     tk.Label(root,text=x[1]).place(x=48,y=40)
-    tk.Label(root,text=x[2]).place(x=46,y=70)
+    tk.Label(root,text=x[2]).place(x=47,y=70)
 
     time.sleep(0.2)
 
@@ -28,10 +28,11 @@ def readserial():
 t1 = continuous_threading.PeriodicThread(0.5, readserial)
 root = tk.Tk()
 root.geometry("300x250")
-
+ 
 w = tk.Label(root,text=' ').place(x=10,y=10)
 w1 = tk.Label(root,text=' ').place(x=10,y=40)
 w1 = tk.Label(root,text='').place(x=10,y=50)
 t1.start()
 
+root.title('ESP32-CAM')
 root.mainloop()
