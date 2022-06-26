@@ -1,5 +1,5 @@
 import serial.tools.list_ports
-# from tkinter import messagebox
+from tkinter import messagebox
 
  
 # comlist = serial.tools.list_ports.comports()
@@ -9,10 +9,18 @@ import serial.tools.list_ports
  
 # messagebox.showinfo("Available COM Ports","" + str(connected) )
 
-import win32com.client
-wmi = win32com.client.GetObject("winmgmts:")
-for serial in wmi.InstancesOf("Win32_SerialPort"):
-       print (serial.Name, serial.Description)
+
+
+
+# import win32com.client
+# wmi = win32com.client.GetObject("winmgmts:")
+# for serial in wmi.InstancesOf("Win32_SerialPort"):
+#        print (serial.Name, serial.Description)
+
 
  
- 
+
+import serial.tools.list_ports
+ports = list(serial.tools.list_ports.comports())
+for p in ports:
+    print(p)

@@ -5,7 +5,7 @@ serialInst =serial.Serial()
 
 portList=[]
 
-
+print('Make sure you have selected correct COM & Baud rate')
 for onePort in ports:
     portList.append(str(onePort))
     print(str(onePort))
@@ -18,7 +18,7 @@ for x in range(0,len(portList)):
         print("You have Selected ---> "+portList[x])
  
 
-serialInst.baudrate = 9600
+serialInst.baudrate = 115200
 serialInst.port=portVar
 serialInst.open()
 

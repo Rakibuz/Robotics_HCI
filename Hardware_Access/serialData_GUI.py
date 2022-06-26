@@ -4,6 +4,7 @@ import serial
 import threading
 import continuous_threading
 
+print('Make sure you have selected correct COM & Baud rate')
 ser = serial.Serial('COM5',115200)
 val1 = 0
 
