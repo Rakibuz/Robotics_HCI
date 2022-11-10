@@ -1,0 +1,30 @@
+-------------------------------------------Raspberry pi to Windows PC----------------------------------------
+
+
+PSCP. (PuTTY secure copy client)
+
+Download pscp.exe  PSCP. an SCP client from  https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+
+C:\Users\rakib\OneDrive\Desktop>pscp -P 22 pi@169.254.248.187:/home/pi/cdr/dbus/ssh/mt/ETDRS_Alphabet_2_2.jpg .
+
+[Directory where you want to store file] pscp -P Port UserName@ipaddress:raspberrypi file directory/filename space dot
+
+
+To Copy all files from a directory just use * instead of file name
+
+C:\Users\rakib\OneDrive\Desktop\Lasso Retrived Images>pscp -P 22 pi@169.254.248.187:/home/pi/cdr/dbus/ssh/mt/* .
+
+
+
+
+
+------------------------------------------Windows to Raspberry pi-----------------------------------------------
+
+C:\Users\rakib\OneDrive\Desktop>pscp -P 22 file.txt pi@169.254.248.187:/home/pi
+
+[Directory from where you want to transfer file] pscp -P Port FileName  username@ipaddress:raspberrypi directory
+
+
+
+
