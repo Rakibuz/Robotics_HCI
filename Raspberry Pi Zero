@@ -1,0 +1,8 @@
+ #Cannot SSH Raspberry Pi Zero W on Windows via USB
+ 
+ #Failling to ssh into Raspberry pi PuTTy showing "unable to open connection to raspberrypi.local Host does not exist!" error
+ 
+ #Raspberry Pi Zero W Headless setup – Windows 10 RNDIS Driver issue resolved
+
+#Remote Network Driver Interface Specification (RNDIS) Download RNDIS driver from here : RNDIS driver (https://www.factoryforward.com/wp-content/uploads/2018/01/mod-duo-rndis.zip), originated from  
+(https://forum.moddevices.com/t/rndis-driver-for-windows-10/299) here
