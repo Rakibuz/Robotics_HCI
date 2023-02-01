@@ -12,6 +12,8 @@ class Shape(ABC):
         #this method have no body other method will overwrite this and use this 
 
 class Triangle(Shape):
+
+    #As this class inherit Shape class it must use area or abstract method otherwise error will be shown
     def area(self):
         area=0.5* self.dim1*self.dim2
         print("Area of Triangle is :",area)
