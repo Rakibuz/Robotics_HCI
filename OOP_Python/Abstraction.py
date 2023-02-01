@@ -21,7 +21,7 @@ class Rectangle(Shape):
         area=self.dim1*self.dim2
         print("Area of Rectangle is :",area)
 
-# we can't create abstract class method
+# we can't create abstract class object
 # s1= Shape(10,20)
 # s1.area()
 
