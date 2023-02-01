@@ -3,7 +3,15 @@ class Shape:
         self.dim1=dim1
         self.dim2=dim2
 
+# This is Hierarchical Inheritance Triangle and Rectangle class are inheriting Shape Class
 
+#                             Shape
+#                               |
+#                               |
+#                   ---------------------------
+#                   |                          |
+#                   
+#                   Triangle               Rectangle
 class Triangle(Shape):
     def area(self):
         area=0.5* self.dim1*self.dim2
