@@ -13,7 +13,7 @@ class  C(A,B):
     
     # def display(self):
     #     print("I am inside C class")
-    pass
+    pass 
 
 
 ob1 =C()
