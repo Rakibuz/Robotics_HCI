@@ -28,3 +28,35 @@ C:\Users\rakib\OneDrive\Desktop>pscp -P 22 file.txt pi@169.254.248.187:/home/pi
 
 
 
+------------------------------------------------------------
+
+
+To transfer a directory from a Windows machine to a Raspberry Pi, 
+
+
+you can use a compression tool such as tar to package the directory into a single file, and then transfer the tar archive file using SCP. 
+Here's an example of how to do this:
+
+On your Windows machine, open a command prompt window and navigate to the directory containing the folder you want to transfer.
+
+
+
+Create a tar archive of the directory:
+
+
+tar -czf [archivename].tar.gz [directoryname]
+
+
+Replace [archivename] with the name you want to give the tar archive and [directoryname] with the name of the directory you want to transfer. 
+For example:
+
+tar -czf myfolder.tar.gz myfolder
+
+
+Transfer the tar archive to the Raspberry Pi using SCP:
+-------------------------->
+
+
+scp [archivename].tar.gz pi@[raspberrypi_ip_address]:[destination_folder]
+
+scp myfolder.tar.gz pi@192.168.1.100:/home/pi
