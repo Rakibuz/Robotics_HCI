@@ -172,9 +172,3 @@ while True:
             process_signal(distance, inData)
 
  
-
-
- 
-
-
-

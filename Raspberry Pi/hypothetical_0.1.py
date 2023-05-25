@@ -11,8 +11,8 @@ distantToFolderMappings = {
     8: "C:/Users/rakib/OneDrive/Desktop/Optoshi/8 Feet"
 }
 menuMapping = {
-    "One": "e",
-    "Two": "a",
+    "one": "contrast",
+    "two": "a",
 }
 
 def convertHex(binaryValue):
