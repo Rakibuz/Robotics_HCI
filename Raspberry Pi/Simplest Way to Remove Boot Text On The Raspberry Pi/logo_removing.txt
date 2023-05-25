@@ -1,0 +1,42 @@
+
+Simplest Way to Remove Boot Text On The Raspberry Pi
+30. October 2019
+[TUTORIAL] Simplest Way to Remove Boot Text On The Raspberry Pi
+We all have been there, the embarrasment when our kiosk or digital signage display goes into reboot or crashes and display shows raspberry pi boot-up text. With these couple of steps you can remove those and have clean black background.
+CAUTION: This is tested on Raspberry Pi3+. Other versions may work but we haven’t tested. Please try this first on your testing unit. Tinkering with cmdline.txt might cause you the unknown amount of wasted time and headache.
+
+
+
+
+Set screen black on boot:
+Type into the terminal:
+
+sudo nano /boot/cmdline.txt
+
+
+
+add this to the end of the first line:
+
+consoleblank=1 logo.nologo quiet loglevel=0 plymouth.enable=0 vt.global_cursor_default=0 plymouth.ignore-serial-consoles splash fastboot noatime nodiratime noram
+
+
+
+
+[IMPORTANT] Make sure it is all on the same line or else it will break your boot sequence!!!
+
+Disable large rainbow screen on initial boot
+Type into the terminal:
+
+sudo nano /boot/config.txt
+
+
+Add Row to the end:
+
+disable_splash=1
+
+
+Type into the terminal:
+
+sudo reboot
+And that is it. You should now have a clean kiosk or digital signage display.
+If you want Raspberry Pi based custom digital signage content management solutions, then contact us, describe your need and we will advise what would suit best for your use case.
