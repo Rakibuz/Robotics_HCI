@@ -1,0 +1,49 @@
+
+To remove the Raspberry Pi boot-up logo, image, and text, you'll need to modify the boot configuration file. Here's how you can do it:
+
+Access the command line interface on your Raspberry Pi. You can either connect a keyboard and monitor directly or use SSH to access it remotely.
+
+Open the boot configuration file by running the following command:
+
+ 
+ 
+sudo nano /boot/cmdline.txt
+
+
+Locate the following section in the file:
+ 
+ 
+logo.nologo console=tty1
+Remove the logo.nologo parameter. It disables the Raspberry Pi logo during boot.
+
+Press Ctrl+X, then Y, and Enter to save the changes and exit the text editor.
+
+
+
+
+Next, edit the Raspberry Pi splash screen configuration file by running the command:
+
+
+sudo nano /usr/share/plymouth/themes/pix/pix.script
+
+In the file, you'll find a section that looks like this:
+
+ 
+message_sprite = Sprite();
+message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);
+
+
+
+Comment out or delete these lines to remove the boot text. It should look like this:
+
+ 
+#message_sprite = Sprite();
+#message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);
+
+
+Press Ctrl+X, then Y, and Enter to save the changes and exit the text editor.
+
+Reboot your Raspberry Pi for the changes to take effect by running the command:
+
+Copy code
+sudo reboot
